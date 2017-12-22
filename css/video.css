@@ -1,0 +1,28 @@
+/**gestion d'affichage de la video**/
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.texte-video {
+    font-family: 'Arial Narrow', sans-serif, 'Lucida Sans';
+    font-size: 5em;
+    font-weight: bold;
+    background:rgba(0,0,0,0.5);
+    color: white;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    padding-bottom: 50px;
+
+}
+
+.texte-video p{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    top:0px;
+    font-family: 'Droid sans', Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/**Debut de la creation de l'entete**/
+
+#menu-entete {
+    overflow: hidden;
+    background-color: #333;   
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+#menu-entete a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   padding: 15px;
+   display: inline-block;
+}
+
+.menu-gauche{
+    float: left;
+}
+
+.menu-droite{
+    float: right;
+}
+
+/**gestion du dropdown list principal**/
+nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:hover {
+    background: #555;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+nav ul li ul li  {
+    background: #555;
+    display: block ;
+}
+
+nav ul li ul li a {
+    display: block !important;
+}
+nav ul li ul li:hover {
+    background: #666;
+}
+/**fin gestion du dropdown princial**/
+
+
+#logo-principal {
+    width: 180px;
+    height: 70px;
+}
+
+.div-logo {
+    position: absolute;
+    top: -7px;
+    left: 43%;
+    background-color:rgb(253, 251, 251);
+}
+
+/**Fin de a creation de l'entete**/
+

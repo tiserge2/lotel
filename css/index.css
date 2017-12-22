@@ -1,0 +1,52 @@
+/**gestion des conteneurs de la page d'accueil**/
+
+#conteneur-info-acc {
+    width: 100%;
+}
+
+.info-acc-hor1, .info-acc-hor2 {
+    width: 100%;
+
+}
+
+.info-acc-hor1-gauche, .info-acc-hor1-droite, .info-acc-hor2-gauche, .info-acc-hor2-droite {
+    width: 50%;
+    display: inline-block;
+    height: 400px;
+    float: left;
+}
+
+.info-acc-hor1-gauche {
+    background-color: green;
+}
+
+
+.info-acc-hor2-droite {
+    background-color: red;
+}
+
+.img-accueil{
+    width: 100%;
+    height: 400px;
+}
+
+.texte-accueil {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.texte-accueil h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texte-accueil p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+
+

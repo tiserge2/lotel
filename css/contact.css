@@ -1,0 +1,72 @@
+#contenu-contact {
+    width: 100%;
+    height: 650px;
+}
+
+.contenu-contact-gauche, .contenu-contact-droite {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.contenu-contact-gauche {
+}
+
+
+.a-propos{
+    background-color: rgba(128, 0, 128,0.09);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contactez-nous {
+    background-color: rgba(128, 0, 128,0.09);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;    padding-top: 10px;
+}
+
+form {
+    margin-top: 100px;
+    margin-left: auto;
+    width: 80%;
+}
+
+.a-propos, .contactez-nous {
+    width: 80%;
+    height: 40%;
+    margin: 50px auto;
+}
+
+.a-propos h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.a-propos p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.icons-contact {
+    width: 40px;
+    height: 40px;
+}
+
+.phone, .email, .fax {
+    margin-bottom: 15px;
+}
+
+.contactez-nous h1, .phone, .email, .fax {
+    width: 80%;
+    margin-left: auto;
+}
+
+.a-propos li {
+    line-height: 20px;
+}
+
