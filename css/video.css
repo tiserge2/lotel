@@ -5,7 +5,9 @@ video {
     height: auto;
 }
 
-
+#video-accueil {
+	padding-top: 53px;
+}
 
 .texte-video {
     font-family: 'Arial Narrow', sans-serif, 'Lucida Sans';

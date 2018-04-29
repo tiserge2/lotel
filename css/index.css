@@ -13,17 +13,9 @@
     width: 50%;
     display: inline-block;
     height: 400px;
-    float: left;
+    float: right;
 }
 
-.info-acc-hor1-gauche {
-    background-color: green;
-}
-
-
-.info-acc-hor2-droite {
-    background-color: red;
-}
 
 .img-accueil{
     width: 100%;

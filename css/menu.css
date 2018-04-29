@@ -21,6 +21,7 @@ header{
     background-color: #333;   
     padding-left: 100px;
     padding-right: 100px; 
+	
 }
 
 #menu-entete a{
@@ -41,7 +42,7 @@ header{
 
 /**gestion du dropdown list principal**/
 nav ul {
-    display: inline;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -72,6 +73,7 @@ nav ul li ul li  {
 nav ul li ul li a {
     display: block !important;
 }
+
 nav ul li ul li:hover {
     background: #666;
 }
@@ -80,14 +82,14 @@ nav ul li ul li:hover {
 
 #logo-principal {
     width: 180px;
-    height: 70px;
+	height:70px;
+   
 }
 
 .div-logo {
     position: absolute;
-    top: -7px;
+    top: -9px;
     left: 43%;
-    background-color:rgb(253, 251, 251);
 }
 
 /**Fin de a creation de l'entete**/
